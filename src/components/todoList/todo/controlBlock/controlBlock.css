@@ -1,0 +1,37 @@
+.control-block {
+    text-align: right;
+  }
+  
+  .control-block > button {
+    height: 35px;
+    width: 125px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.904);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .control-block > button:hover {
+    color: rgb(171, 240, 12);
+    background-color: black;
+  }
+  
+  .control-block > button:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .view-button {
+    background-color: rgb(97, 97, 172);
+  }
+
+  .postpone-button {
+    background-color: rgb(163, 122, 45);
+  }
+ 
+  .delete-button {
+    background-color: rgb(100, 22, 22);
+  }
+  .done-button {
+    background-color: rgb(31, 31, 116);
+  }

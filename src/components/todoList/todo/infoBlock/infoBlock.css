@@ -1,0 +1,14 @@
+.info-block {
+    display: flex;
+  }
+  .status-panel {
+    flex-grow: 4;
+  }
+  .created-date-panel {
+    flex-grow: 1;
+    text-align: right;
+  }
+  .done-date-panel {
+    flex-grow: 1;
+    text-align: right;
+  }

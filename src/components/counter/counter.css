@@ -1,0 +1,19 @@
+#counter {
+    position: absolute;
+    top: 5px;
+    right: 10%;
+    background: rgba(255, 255, 255, 0.233);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    padding: 5px;
+    background-color: rgba(47, 45, 80, 0.247);
+  }
+  
+  #total-counter-text {
+    color: black;
+    padding-right: 5px;
+  }
+  
+  #total-counter-number {
+    color: rgba(32, 42, 99, 0.61);
+  }

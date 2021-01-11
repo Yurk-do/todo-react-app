@@ -1,0 +1,23 @@
+.button-form-block {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px blue;
+    margin-top: 10px;
+  }
+  .button-form-block > input:not(:last-child) {
+    margin-right: 20px;
+  } 
+  
+  .button-form-block > input {
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    background: rgba(0, 0, 0, 0.678);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+  } 
+  
+  .button-form-block > input:hover {
+    background: rgba(19, 18, 18, 0.884);
+  }
