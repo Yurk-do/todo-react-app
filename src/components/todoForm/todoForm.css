@@ -1,3 +1,9 @@
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
 #todo-text {
     font-size: 20px;
     width: 100%;
@@ -5,3 +11,4 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border-radius: 5px;
 }
+

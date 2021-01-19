@@ -1,14 +1,20 @@
 import React from "react";
 import "./infoBlock.css";
+import { StatusPanel } from "./statusPanel/statusPanel.js";
+import { DatePanel } from "./datePanel/datePanel.js";
 
 export function InfoBlock({ state, dateCreated, dateCompleted }) {
   return (
-    <div className="info-block">
-      <p className="status-panel">{state}</p>
-      <p className="created-date-panel">{dateCreated}</p>
+    <dl className="info-block">
+      <StatusPanel status={state} />
+      <DatePanel label="Created:" dateTime={dateCreated} />
       {dateCompleted != undefined && (
-        <p className="done-date-panel">{dateCompleted}</p>
+        <DatePanel
+          label="Completed:"
+          dateTime={dateCompleted}
+          className="done-date-panel"
+        />
       )}
-    </div>
+    </dl>
   );
 }

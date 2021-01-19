@@ -1,5 +1,9 @@
 .control-block {
-    text-align: right;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
   }
   
   .control-block > button {
@@ -10,15 +14,13 @@
     color: rgba(255, 255, 255, 0.904);
     cursor: pointer;
     transition: 0.5s;
+    margin-left: 20px;
+    margin-bottom: 10px;
   }
   
   .control-block > button:hover {
     color: rgb(171, 240, 12);
     background-color: black;
-  }
-  
-  .control-block > button:not(:last-child) {
-    margin-right: 20px;
   }
   
   .view-button {
@@ -35,3 +37,4 @@
   .done-button {
     background-color: rgb(31, 31, 116);
   }
+

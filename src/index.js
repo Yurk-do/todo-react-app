@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-import App from "./App";
+import TodoApp from "./todoApp";
+import { todos } from "./data/db.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TodoApp allTodo={todos} />
   </React.StrictMode>,
   document.getElementById("root")
 );
